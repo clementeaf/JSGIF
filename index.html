@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="phoneBasicUpperBar">
+        <div class="itemsLeft">
+            <small>movistar</small>
+            <i class="fa fa-signal" aria-hidden="true"></i>
+            <i class="fa fa-wifi" aria-hidden="true"></i>
+        </div>
+
+        <div class="itemsRight">
+            <small>35%</small>
+            <i class="fa fa-battery-quarter" aria-hidden="true"></i>
+        </div>
+
+    </div>
+    <!-- Header: Title, SearchBar, SearchButton -->
+    <header>
+        <h1 id="webTitle" onclick="reload()">Giphy</h1>
+        <form class="searchForm" id="search-form">
+            <input type="text" id="searchInput" class="searchBar" placeholder="Search Gif" />
+            <button class="searchBtn">Search</button>
+        </form>
+
+        <div class="categoryButtons">
+            <button class="category-btn" id="random" onclick="randomGifSearchBtn()">Random</button>
+            <button class="category-btn" id="topGif" onclick="topGifSearch()">Top-Gif</button>
+            <div class="lastSearched" id="lastGifSearched">
+
+            </div>
+        </div>
+    </header>
+    
+    <!-- Result Container -->
+    <div class="resultsContent" id="results">
+        <!-- gif images here! -->
+    </div>
+
+    <div class="error" id="err"><h2>:(</h2><p>No hay resultados para esta busqueda</p></div>
+
+    <nav class="phoneBar">
+    </nav>
+    <!-- <div class="modalError"></div> -->
+
+    <script src="./app.js"></script>
+</body>
+</html>

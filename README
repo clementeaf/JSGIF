@@ -1,0 +1,11 @@
+ //REQUERIMIENTOS DE LA APP
+ 
+ // sistema que me permita ver y buscar imágenes animadas tipo GIF. (LISTO)
+ // lo primero que se vea al ingresar a la aplicación sean los gifs más populares (trending)(LISTO)
+ // al ingresar en un input de texto HTML una cadena para buscar imágenes relacionadas a ella. Las imágenes encontradas serán mostradas de la misma forma, en el mismo sector que las más populares.(LISTO)
+ // aviso búsqueda no arrojase resultados(LISTO).
+ // historial últimas tres búsquedas en caso de querer acceder nuevamente. Esto debe persistir a los cierres del navegador, y al hacer click en una de ellas, volver a realizar la búsqueda.
+ // al final de la página, esta carge más gifs (infinite scrolling)
+
+ 
+
